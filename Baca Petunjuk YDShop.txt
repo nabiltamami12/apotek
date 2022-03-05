@@ -1,0 +1,27 @@
+Spesifikasi Aplikasi
+===========================================================================================
+1. Framework Laravel 5.4
+2. PHP >= 7.1
+3. Include Printer Kasir (Thermal)
+
+
+LANGKAH - LANGKAH MENJALANKAN APLIKASI YDSHOP
+==========================================================================================
+1. Syarat Pertama harus instal dulu Composer Jika Belum Terinstal bisa di download disini
+   https://www.dhiecoderweb.com/2019/01/instalasi-composer.html
+2. Run Command Prompt (CMD)
+3. Masuk Ke directory folder aplikasi YDShop melalui CMD
+3. Ketikkan "Composer Instal"  -> Fungsinya untuk mengunduh library yang terbaru. Tunggu Hingga Selesai
+4. Buat Nama database di server
+5. Ubah dan sesuaikan konfigurasi koneksi dan database di file .env di directory root
+4. Ketikkan "php artisan migrate:refresh --seed" -> FUngsinya untuk Membuat struktur table & isi data table ke database
+5. Untuk Menjalankan Aplikasi Ketikkan "php artisan serve"
+6. Buka Browser dan ketikkan Url http://127.0.0.1:8000 (Lihat di hasil command php artisan serve untuk url nya)
+
+Terima Kasih
+Semoga APlikasi ini bermnafaat dan bisa sebagai referensi untuk pengembangan selanjutnya
+
+Salam Coder
+Dhiecoderweb Tutorial
+www.dhiecoderweb.com
+

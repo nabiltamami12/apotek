@@ -1,0 +1,83 @@
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Verdana,sans-serif;
+}
+
+.form-control {
+    font-size: 12px;
+    line-height: 1.5;
+    
+}
+button, input, select, textarea, .btn {
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.input-group-btn {
+    font-size: 12px;
+}
+
+.sidebar-menu {
+    font-size: 14px;
+}
+
+
+.sidebar-menu .treeview-menu>li>a {
+    font-size: 12px;
+}
+
+ /*content */
+.daftar-tombol {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 0px;
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.daftar-tombol a {
+    margin-left: 0px;
+}
+
+.tombol-footer {
+    margin-top : 15px;
+
+}
+
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+    height: 175px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+label {
+    font-size: 12px;
+}
+
+.form-left .control-label{
+text-align:left;
+}
+
+.barangscanbarcode {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inputbayarkembali {
+    font-size: 14px;
+    font-weight: bold;
+}
